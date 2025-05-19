@@ -262,3 +262,4 @@ try: # 지표 시각화 예시 (건물 밀도)
 except Exception as e:
     print(f"시각화 중 오류 발생: {e}")
 
+
