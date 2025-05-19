@@ -154,7 +154,7 @@ else:
 grid.head()
 
 #%%
-'''Analyze city behavior metrics'''
+'''Analyze city behavior metrics''' 
 total_cells = len(grid)
 grid_metrics = []
 print(f"총 격자: {total_cells}개")
