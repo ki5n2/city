@@ -261,5 +261,3 @@ try: # 지표 시각화 예시 (건물 밀도)
     print("건물 밀도 시각화 이미지가 'seoul_building_density.png' 파일로 저장되었습니다.")
 except Exception as e:
     print(f"시각화 중 오류 발생: {e}")
-
-
