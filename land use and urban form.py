@@ -153,6 +153,8 @@ else:
 
 grid.head()
 
+
+
 #%%
 '''Analyze city behavior metrics''' 
 total_cells = len(grid)
