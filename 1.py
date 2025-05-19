@@ -23,5 +23,3 @@ grid_metrics = []
 
 grid_3857['cell_id'] = range(len(grid_3857))
 grid_3857_metrics = []
-
-
