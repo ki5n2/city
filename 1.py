@@ -13,7 +13,8 @@ for x0 in np.arange(minx, maxx, cell_size):
 
 grid = gpd.GeoDataFrame(geometry=grid_cells, crs=utm_crs)
 
-grid = grid[grid.intersects(city_boundary_utm.unary_union)] # 도시 경계 내의 격자만 선택
+# 도시 경계 내의 격자만 선택
+grid = grid[grid.intersects(city_boundary_utm.unary_union)] 
 
 grid_3857 = grid.to_crs(epsg=3857)
 city_boundary_3857 = city_boundary.to_crs(epsg=3857)
@@ -23,5 +24,3 @@ grid_metrics = []
 
 grid_3857['cell_id'] = range(len(grid_3857))
 grid_3857_metrics = []
-
-
